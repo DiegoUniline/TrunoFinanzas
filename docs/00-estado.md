@@ -7,10 +7,11 @@
 - **Paso:** Vuelta 0 · 0.3 — Condiciones
 - **Rebanada en curso:** —
 - **Módulo en curso:** —
-- **Última pregunta:** P-002 (C2 usuarios y roles) · ABIERTA
-- **Siguiente paso exacto:** registrar respuesta P-002 y seguir con C3–C6 una por mensaje
+- **Última pregunta:** P-003 (C3 empresas/sucursales) · ABIERTA
+- **Siguiente paso exacto:** registrar respuesta P-003 y seguir con C4–C6 una por mensaje
 
 ## Decisiones recientes (últimas 10)
+- D-002 · usuarios variables, permisos configurables (CR-08)
 - D-001 · SaaS para rentar a muchas empresas
 
 ## Propuestas pendientes de aprobación 💡
