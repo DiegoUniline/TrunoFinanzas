@@ -14,5 +14,5 @@ No pedir captura: leer el dato de donde ya existe (SAT/CFDI, banco, POS, exporta
 | C2 | Usuarios y roles | Variable 1–15+, permisos configurables (D-002) | ✅ CONFIRMADO |
 | C3 | Sucursales / varias empresas por dueño | Grupo → empresas → sucursales, consolidado (D-003) | ✅ CONFIRMADO |
 | C4 | Dinero / CFDI | Sí; lee CFDI y emite con API Facturama (D-004) | ✅ CONFIRMADO |
-| C5 | Desde dónde se usa | — | ❓ PENDIENTE (P-005) |
-| C6 | Tecnología | — | ❓ |
+| C5 | Desde dónde se usa | Computadora + celular, sin modo sin conexión (D-005) | ✅ CONFIRMADO |
+| C6 | Tecnología | — | ❓ PENDIENTE (P-006) |

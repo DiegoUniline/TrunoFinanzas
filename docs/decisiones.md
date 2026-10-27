@@ -19,3 +19,8 @@
 **Decisión:** La app lee CFDI (emitidos y recibidos) y además emite/timbra CFDI usando la API de Facturama.
 **Origen:** P-004
 **Consecuencias:** aplica skill cfdi-mexico: datos fiscales por empresa (RFC, régimen, CP, CSD), clientes con datos de receptor, series y folios por empresa (CR-11), impuestos explícitos (CR-12), cancelación con motivo SAT, notas de crédito, complemento de pago (REP); credenciales de Facturama y CSD como secretos solo en backend. Rebanada en la que entra la emisión: ❓ por definir en 1.3.
+
+### D-005 · general · 2026-10-27
+**Decisión:** Uso en computadora (administración, conciliación) y celular (dueño: tablero, autorizaciones, fotos de comprobantes). Sin modo sin conexión.
+**Origen:** P-005
+**Consecuencias:** diseño responsive con prioridad escritorio para conciliación y móvil para tablero y aprobaciones (mobile-ux-architect); carga de comprobantes con cámara; notificaciones.
