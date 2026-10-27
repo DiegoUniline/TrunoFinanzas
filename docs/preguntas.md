@@ -47,3 +47,11 @@
 **Recomendación:** A — aislamiento real entre empresas con RLS, volumen de movimientos y conciliación que Sheets no aguanta, secretos (e.firma, CSD, Facturama) protegidos en el backend.
 **Impacto en datos:** todo lo técnico.
 **Respuesta:** A) Supabase + web React (2026-10-27)
+
+### P-007 · ventas · ALTA · ABIERTA
+**Contexto:** H-01/H-02. Clave para no pedir doble captura: de dónde sale la venta.
+**Pregunta:** ¿De dónde viene la venta en la app?
+**Opciones:** A) Se crea sola desde el CFDI emitido (Facturama o descargado del SAT) o se importa del punto de venta; captura manual solo si no hay ninguno  B) Siempre se captura en la app  C) Solo del punto de venta
+**Recomendación:** A — si ya existe en otro lado, se lee; así no hay objeción.
+**Impacto en datos:** ventas con origen (manual, cfdi, pos), referencia externa única por empresa para no duplicar.
+**Respuesta:**

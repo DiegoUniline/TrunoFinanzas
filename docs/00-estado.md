@@ -4,11 +4,11 @@
 **Última actualización:** 2026-10-27 · **Agente:** arquitecto
 
 ## Dónde vamos
-- **Paso:** Vuelta 0 · 0.4 — Base fija
+- **Paso:** Vuelta 1 · 1.1 — Cuéntame cómo trabajas
 - **Rebanada en curso:** —
 - **Módulo en curso:** —
-- **Última pregunta:** ¿Quitas alguna tabla de la base fija? (00-mapa.md) · ABIERTA
-- **Siguiente paso exacto:** confirmar base fija y pasar a 1.1 "Cuéntame cómo trabajas" una por mensaje
+- **Última pregunta:** P-007 (origen de la venta) · ABIERTA
+- **Siguiente paso exacto:** registrar P-007 y seguir 1.1 (gastos: origen; luego traspasos/otros movimientos) una por mensaje
 
 ## Decisiones recientes (últimas 10)
 - D-006 · Supabase + web React
