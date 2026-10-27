@@ -9,3 +9,8 @@
 **Decisión:** Usuarios por empresa variable (1 a 15+); roles y permisos configurables por empresa.
 **Origen:** P-002
 **Consecuencias:** CR-08: tablas roles, permisos (vista + acción) con valores iniciales; usuarios_empresa.
+
+### D-003 · general · 2026-10-27
+**Decisión:** Estructura grupo → empresas (razones sociales) → sucursales, con vista consolidada del grupo.
+**Origen:** P-003
+**Consecuencias:** tabla de grupos (organización/cliente del SaaS) sobre empresas; sucursal_id; usuarios con acceso a varias empresas y sucursales; traspasos y préstamos entre empresas del grupo; reportes consolidados que eliminan movimientos internos.

@@ -16,10 +16,18 @@
 **Impacto en datos:** roles y permisos por vista y acción, flujo de aprobación de gastos.
 **Respuesta:** C) Variable, de 1 a 15+ (2026-10-27)
 
-### P-003 · general · ALTA · ABIERTA
+### P-003 · general · ALTA · RESPONDIDA
 **Contexto:** C3. Define sucursal_id, consolidados y si un usuario ve varias empresas.
 **Pregunta:** ¿Un mismo dueño puede tener varias empresas (razones sociales) y/o sucursales que quiera ver juntas?
 **Opciones:** A) Sí: grupo con varias empresas y sucursales, con vista consolidada  B) Solo sucursales dentro de una empresa  C) Una empresa sin sucursales
 **Recomendación:** A — es común que un dueño tenga varias razones sociales; el consolidado es un valor que ningún sistema de punto de venta da.
 **Impacto en datos:** tabla de grupos/organización sobre empresas, sucursal_id, traspasos entre empresas, usuarios con acceso a varias empresas.
+**Respuesta:** A) Grupo con varias empresas y sucursales, vista consolidada (2026-10-27)
+
+### P-004 · general · ALTA · ABIERTA
+**Contexto:** C4. Leer CFDI del SAT es la base para no pedir captura; emitir CFDI es otro producto (PAC, timbrado, cancelaciones).
+**Pregunta:** Con las facturas, ¿la app solo las LEE (descarga del SAT) o también las EMITE (timbra)?
+**Opciones:** A) Solo leer emitidas y recibidas del SAT  B) Leer y también emitir  C) Leer ahora y emitir en una rebanada posterior
+**Recomendación:** A — no compite con el sistema de facturación o punto de venta que ya usan; esa competencia es justo la objeción a evitar.
+**Impacto en datos:** cfdi (XML, UUID, emisor, receptor, totales, impuestos, PUE/PPD, REP), resguardo de e.firma; si emite: PAC, folios, series, cancelación (cfdi-mexico).
 **Respuesta:**

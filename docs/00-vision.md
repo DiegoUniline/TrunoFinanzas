@@ -12,7 +12,7 @@ No pedir captura: leer el dato de donde ya existe (SAT/CFDI, banco, POS, exporta
 |---|---|---|---|
 | C1 | ¿Rentar a muchas empresas o uso propio? | SaaS para rentar (D-001) | ✅ CONFIRMADO |
 | C2 | Usuarios y roles | Variable 1–15+, permisos configurables (D-002) | ✅ CONFIRMADO |
-| C3 | Sucursales / varias empresas por dueño | — | ❓ PENDIENTE (P-003) |
-| C4 | Dinero / CFDI | Sí maneja dinero; CFDI ❓ | 🟡 |
+| C3 | Sucursales / varias empresas por dueño | Grupo → empresas → sucursales, consolidado (D-003) | ✅ CONFIRMADO |
+| C4 | Dinero / CFDI | Sí maneja dinero; CFDI leer/emitir ❓ | ❓ PENDIENTE (P-004) |
 | C5 | Desde dónde se usa | — | ❓ |
 | C6 | Tecnología | — | ❓ |
