@@ -14,3 +14,8 @@
 **Decisión:** Estructura grupo → empresas (razones sociales) → sucursales, con vista consolidada del grupo.
 **Origen:** P-003
 **Consecuencias:** tabla de grupos (organización/cliente del SaaS) sobre empresas; sucursal_id; usuarios con acceso a varias empresas y sucursales; traspasos y préstamos entre empresas del grupo; reportes consolidados que eliminan movimientos internos.
+
+### D-004 · general · 2026-10-27
+**Decisión:** La app lee CFDI (emitidos y recibidos) y además emite/timbra CFDI usando la API de Facturama.
+**Origen:** P-004
+**Consecuencias:** aplica skill cfdi-mexico: datos fiscales por empresa (RFC, régimen, CP, CSD), clientes con datos de receptor, series y folios por empresa (CR-11), impuestos explícitos (CR-12), cancelación con motivo SAT, notas de crédito, complemento de pago (REP); credenciales de Facturama y CSD como secretos solo en backend. Rebanada en la que entra la emisión: ❓ por definir en 1.3.

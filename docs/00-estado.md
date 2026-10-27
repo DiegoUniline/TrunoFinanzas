@@ -7,10 +7,11 @@
 - **Paso:** Vuelta 0 · 0.3 — Condiciones
 - **Rebanada en curso:** —
 - **Módulo en curso:** —
-- **Última pregunta:** P-004 (C4 CFDI leer/emitir) · ABIERTA
-- **Siguiente paso exacto:** registrar respuesta P-004 y seguir con C5–C6 una por mensaje
+- **Última pregunta:** P-005 (C5 desde dónde se usa) · ABIERTA
+- **Siguiente paso exacto:** registrar respuesta P-005 y seguir con C6 (tecnología) una por mensaje
 
 ## Decisiones recientes (últimas 10)
+- D-004 · lee CFDI y emite con API Facturama
 - D-003 · grupo → empresas → sucursales con consolidado
 - D-002 · usuarios variables, permisos configurables (CR-08)
 - D-001 · SaaS para rentar a muchas empresas

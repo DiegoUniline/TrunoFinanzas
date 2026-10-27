@@ -24,10 +24,18 @@
 **Impacto en datos:** tabla de grupos/organización sobre empresas, sucursal_id, traspasos entre empresas, usuarios con acceso a varias empresas.
 **Respuesta:** A) Grupo con varias empresas y sucursales, vista consolidada (2026-10-27)
 
-### P-004 · general · ALTA · ABIERTA
+### P-004 · general · ALTA · RESPONDIDA
 **Contexto:** C4. Leer CFDI del SAT es la base para no pedir captura; emitir CFDI es otro producto (PAC, timbrado, cancelaciones).
 **Pregunta:** Con las facturas, ¿la app solo las LEE (descarga del SAT) o también las EMITE (timbra)?
 **Opciones:** A) Solo leer emitidas y recibidas del SAT  B) Leer y también emitir  C) Leer ahora y emitir en una rebanada posterior
 **Recomendación:** A — no compite con el sistema de facturación o punto de venta que ya usan; esa competencia es justo la objeción a evitar.
 **Impacto en datos:** cfdi (XML, UUID, emisor, receptor, totales, impuestos, PUE/PPD, REP), resguardo de e.firma; si emite: PAC, folios, series, cancelación (cfdi-mexico).
+**Respuesta:** B) Leer y también emitir; timbrado con API de Facturama (2026-10-27, texto del dueño: "si facturar desde ahi al sat usando api facurama")
+
+### P-005 · general · ALTA · ABIERTA
+**Contexto:** C5. Define prioridades de pantallas (escritorio vs móvil) y si se necesita trabajar sin internet.
+**Pregunta:** ¿Desde dónde se usará principalmente?
+**Opciones:** A) Computadora para administración + celular para dueño (tablero, aprobaciones, fotos de comprobantes)  B) Solo computadora  C) Principalmente celular
+**Recomendación:** A — el administrador concilia y clasifica en escritorio; el dueño consulta y autoriza desde el celular. Sin modo sin conexión: todo depende de SAT/banco en línea.
+**Impacto en datos:** diseño responsive, carga de comprobantes con cámara, notificaciones, aprobaciones móviles.
 **Respuesta:**
