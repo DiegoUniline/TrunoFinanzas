@@ -56,10 +56,18 @@
 **Impacto en datos:** ventas con origen (manual, cfdi, pos), referencia externa única por empresa para no duplicar.
 **Respuesta:** A) Desde CFDI emitido o punto de venta; manual solo si no hay ninguno (2026-10-27)
 
-### P-008 · gastos · ALTA · ABIERTA
+### P-008 · gastos · ALTA · RESPONDIDA
 **Contexto:** H-03/H-04. Mismo principio que D-007 para el lado de los gastos.
 **Pregunta:** ¿De dónde viene el gasto en la app?
 **Opciones:** A) Se crea solo desde el CFDI recibido descargado del SAT; si no hay factura, se captura con foto del comprobante (ticket, recibo)  B) Siempre se captura en la app  C) Solo de CFDI recibidos
 **Recomendación:** A — la mayoría de gastos ya tienen CFDI; los que no (efectivo, sin factura) quedan con foto para justificar el egreso y marcados como no deducibles.
 **Impacto en datos:** gastos con origen (cfdi, manual), deducible sí/no, archivo de comprobante, UUID único por empresa.
+**Respuesta:** A, y además: se puede crear un gasto manual que sí será deducible y cuya factura llega después (2026-10-27, texto del dueño: "TAMBIEN PUEDO CREAR UN GASTO Y SI SER DEDUCIBLE LA FACTURA LA RECIBIRE DESPUES")
+
+### P-009 · bancos · ALTA · ABIERTA
+**Contexto:** H-01/H-04. Los movimientos del banco son la otra mitad que no debe capturarse.
+**Pregunta:** ¿Cómo entran los movimientos del banco (Bancomer, etc.)?
+**Opciones:** A) Conexión automática con el banco mediante un agregador (Belvo/Syncfy), costo por cuenta conectada  B) Importar el estado de cuenta (Excel/CSV/OFX) que se descarga de la banca en línea  C) Importar en la primera versión y conexión automática después; captura manual siempre disponible (efectivo/caja)
+**Recomendación:** C — la importación funciona con cualquier banco sin costo por cuenta; la conexión automática se agrega cuando haya clientes que la paguen.
+**Impacto en datos:** movimientos con origen (manual, importacion, conexion), id/hash externo único por cuenta para no duplicar al reimportar; lotes de importación; credenciales del agregador en backend.
 **Respuesta:**

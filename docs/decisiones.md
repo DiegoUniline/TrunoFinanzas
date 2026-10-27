@@ -34,3 +34,8 @@
 **Decisión:** La venta se crea sola desde el CFDI emitido (Facturama o descargado del SAT) o se importa del punto de venta; captura manual solo si no viene de ninguno.
 **Origen:** P-007
 **Consecuencias:** ventas.origen (manual, cfdi, pos) fijo (CR-02); referencia externa (UUID o folio del POS) única por empresa para no duplicar; una venta del POS que después se factura no debe contarse dos veces (❓ regla de enlace POS↔CFDI, se pregunta en R.1).
+
+### D-008 · gastos · 2026-10-27
+**Decisión:** El gasto se crea solo desde el CFDI recibido descargado del SAT; si no hay factura se captura con foto del comprobante. Un gasto capturado a mano puede marcarse deducible con factura pendiente: cuando llega el CFDI se liga a ese gasto, no se crea otro.
+**Origen:** P-008
+**Consecuencias:** gastos.origen (manual, cfdi); estado de factura (sin factura no deducible, factura pendiente, facturado) fijo (CR-02); al descargar un CFDI recibido se buscan gastos con factura pendiente del mismo proveedor (RFC) y monto para sugerir ligarlo; UUID único por empresa; aviso de gastos con factura pendiente vencida (❓ plazo, se pregunta en R.1).

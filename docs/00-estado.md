@@ -7,10 +7,11 @@
 - **Paso:** Vuelta 1 · 1.1 — Cuéntame cómo trabajas
 - **Rebanada en curso:** —
 - **Módulo en curso:** —
-- **Última pregunta:** P-008 (origen del gasto) · ABIERTA
-- **Siguiente paso exacto:** registrar P-008 y seguir 1.1 (cómo entran los movimientos del banco; luego traspasos/otros movimientos) una por mensaje
+- **Última pregunta:** P-009 (cómo entran los movimientos del banco) · ABIERTA
+- **Siguiente paso exacto:** registrar P-009 y seguir 1.1 (traspasos y otros movimientos: comisiones, préstamos, impuestos) una por mensaje
 
 ## Decisiones recientes (últimas 10)
+- D-008 · gasto desde CFDI recibido o manual; factura pendiente se liga después
 - D-007 · venta desde CFDI emitido o POS; manual solo si no hay
 - D-006 · Supabase + web React
 - D-005 · computadora + celular, sin modo sin conexión
