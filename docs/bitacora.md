@@ -7,3 +7,4 @@
 - 2026-10-27 · arquitecto · P-005 respondida: A (computadora + celular) · D-005
 - 2026-10-27 · arquitecto · P-006 respondida: A (Supabase + React) · D-006 · 0.3 completo, base fija propuesta
 - 2026-10-27 · arquitecto · base fija confirmada sin quitar · 1.1 iniciado: H-01…H-06 (ingresos, egresos, pagos programados, costos fijos) · P-007 abierta
+- 2026-10-27 · arquitecto · P-007 respondida: A · D-007 · P-008 abierta

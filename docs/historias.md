@@ -16,4 +16,5 @@
 ## Detectado sin detallar (🟡 se pregunta después)
 - Un ingreso puede cubrir varias ventas y una venta puede cobrarse en varios ingresos (parcialidades) → relación de aplicaciones.
 - Movimientos del banco que no son venta ni gasto: traspasos entre cuentas o entre empresas del grupo, comisiones, préstamos, impuestos.
-- Origen de la venta: ¿punto de venta, CFDI emitido o capturada? (P-007)
+- Origen de la venta: desde CFDI emitido o punto de venta; manual solo si no hay (D-007).
+- Origen del gasto: (P-008)

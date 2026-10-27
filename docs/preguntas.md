@@ -48,10 +48,18 @@
 **Impacto en datos:** todo lo técnico.
 **Respuesta:** A) Supabase + web React (2026-10-27)
 
-### P-007 · ventas · ALTA · ABIERTA
+### P-007 · ventas · ALTA · RESPONDIDA
 **Contexto:** H-01/H-02. Clave para no pedir doble captura: de dónde sale la venta.
 **Pregunta:** ¿De dónde viene la venta en la app?
 **Opciones:** A) Se crea sola desde el CFDI emitido (Facturama o descargado del SAT) o se importa del punto de venta; captura manual solo si no hay ninguno  B) Siempre se captura en la app  C) Solo del punto de venta
 **Recomendación:** A — si ya existe en otro lado, se lee; así no hay objeción.
 **Impacto en datos:** ventas con origen (manual, cfdi, pos), referencia externa única por empresa para no duplicar.
+**Respuesta:** A) Desde CFDI emitido o punto de venta; manual solo si no hay ninguno (2026-10-27)
+
+### P-008 · gastos · ALTA · ABIERTA
+**Contexto:** H-03/H-04. Mismo principio que D-007 para el lado de los gastos.
+**Pregunta:** ¿De dónde viene el gasto en la app?
+**Opciones:** A) Se crea solo desde el CFDI recibido descargado del SAT; si no hay factura, se captura con foto del comprobante (ticket, recibo)  B) Siempre se captura en la app  C) Solo de CFDI recibidos
+**Recomendación:** A — la mayoría de gastos ya tienen CFDI; los que no (efectivo, sin factura) quedan con foto para justificar el egreso y marcados como no deducibles.
+**Impacto en datos:** gastos con origen (cfdi, manual), deducible sí/no, archivo de comprobante, UUID único por empresa.
 **Respuesta:**

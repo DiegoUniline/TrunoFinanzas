@@ -29,3 +29,8 @@
 **Decisión:** Tecnología: Supabase (Postgres, Auth, RLS, Storage, Edge Functions) + web React responsive.
 **Origen:** P-006
 **Consecuencias:** convenciones Postgres de la constitución; RLS por empresa en todas las tablas; integraciones SAT, banco, POS y Facturama en Edge Functions con secretos en el backend; operaciones de varios pasos en RPC transaccional.
+
+### D-007 · ventas · 2026-10-27
+**Decisión:** La venta se crea sola desde el CFDI emitido (Facturama o descargado del SAT) o se importa del punto de venta; captura manual solo si no viene de ninguno.
+**Origen:** P-007
+**Consecuencias:** ventas.origen (manual, cfdi, pos) fijo (CR-02); referencia externa (UUID o folio del POS) única por empresa para no duplicar; una venta del POS que después se factura no debe contarse dos veces (❓ regla de enlace POS↔CFDI, se pregunta en R.1).
