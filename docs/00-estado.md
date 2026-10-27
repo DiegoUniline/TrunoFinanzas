@@ -1,20 +1,20 @@
 # Estado del proyecto — DOCUMENTO VIVO
 > Se lee al iniciar cada sesión y se actualiza después de cada respuesta, decisión, cambio o hallazgo.
 
-**Última actualización:** — · **Agente:** —
+**Última actualización:** 2026-10-27 · **Agente:** arquitecto
 
 ## Dónde vamos
-- **Paso:** Vuelta 0 · 0.1 — Arranque
+- **Paso:** Vuelta 0 · 0.3 — Condiciones
 - **Rebanada en curso:** —
 - **Módulo en curso:** —
-- **Última pregunta:** —
-- **Siguiente paso exacto:** el dueño escribe "Quiero un sistema para …"; el agente hace 0.2 (investigación del giro) y 0.3 (condiciones)
+- **Última pregunta:** P-001 (C1 rentar vs propio) · ABIERTA
+- **Siguiente paso exacto:** registrar respuesta P-001 y seguir con C2–C6 una por mensaje
 
 ## Decisiones recientes (últimas 10)
 - (ninguna)
 
 ## Propuestas pendientes de aprobación 💡
-- <propuesta> — <por qué>
+- Hipótesis de producto: leer de SAT/banco/POS en vez de capturar — elimina la objeción de doble captura
 
 ## Pendientes / bloqueos
 - <pendiente>
