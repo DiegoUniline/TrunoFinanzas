@@ -15,4 +15,4 @@ No pedir captura: leer el dato de donde ya existe (SAT/CFDI, banco, POS, exporta
 | C3 | Sucursales / varias empresas por dueño | Grupo → empresas → sucursales, consolidado (D-003) | ✅ CONFIRMADO |
 | C4 | Dinero / CFDI | Sí; lee CFDI y emite con API Facturama (D-004) | ✅ CONFIRMADO |
 | C5 | Desde dónde se usa | Computadora + celular, sin modo sin conexión (D-005) | ✅ CONFIRMADO |
-| C6 | Tecnología | — | ❓ PENDIENTE (P-006) |
+| C6 | Tecnología | Supabase + web React (D-006) | ✅ CONFIRMADO |

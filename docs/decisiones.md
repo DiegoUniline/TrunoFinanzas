@@ -24,3 +24,8 @@
 **Decisión:** Uso en computadora (administración, conciliación) y celular (dueño: tablero, autorizaciones, fotos de comprobantes). Sin modo sin conexión.
 **Origen:** P-005
 **Consecuencias:** diseño responsive con prioridad escritorio para conciliación y móvil para tablero y aprobaciones (mobile-ux-architect); carga de comprobantes con cámara; notificaciones.
+
+### D-006 · general · 2026-10-27
+**Decisión:** Tecnología: Supabase (Postgres, Auth, RLS, Storage, Edge Functions) + web React responsive.
+**Origen:** P-006
+**Consecuencias:** convenciones Postgres de la constitución; RLS por empresa en todas las tablas; integraciones SAT, banco, POS y Facturama en Edge Functions con secretos en el backend; operaciones de varios pasos en RPC transaccional.

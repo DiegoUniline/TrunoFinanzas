@@ -4,13 +4,14 @@
 **Última actualización:** 2026-10-27 · **Agente:** arquitecto
 
 ## Dónde vamos
-- **Paso:** Vuelta 0 · 0.3 — Condiciones
+- **Paso:** Vuelta 0 · 0.4 — Base fija
 - **Rebanada en curso:** —
 - **Módulo en curso:** —
-- **Última pregunta:** P-006 (C6 tecnología) · ABIERTA
-- **Siguiente paso exacto:** registrar respuesta P-006 y pasar a 0.4 base fija una por mensaje
+- **Última pregunta:** ¿Quitas alguna tabla de la base fija? (00-mapa.md) · ABIERTA
+- **Siguiente paso exacto:** confirmar base fija y pasar a 1.1 "Cuéntame cómo trabajas" una por mensaje
 
 ## Decisiones recientes (últimas 10)
+- D-006 · Supabase + web React
 - D-005 · computadora + celular, sin modo sin conexión
 - D-004 · lee CFDI y emite con API Facturama
 - D-003 · grupo → empresas → sucursales con consolidado

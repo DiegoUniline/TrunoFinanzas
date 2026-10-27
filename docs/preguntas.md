@@ -40,10 +40,10 @@
 **Impacto en datos:** diseño responsive, carga de comprobantes con cámara, notificaciones, aprobaciones móviles.
 **Respuesta:** A) Computadora + celular, sin modo sin conexión (2026-10-27)
 
-### P-006 · general · ALTA · ABIERTA
+### P-006 · general · ALTA · RESPONDIDA
 **Contexto:** C6. SaaS multiempresa (D-001), grupos con consolidado (D-003), miles de movimientos por empresa al mes, conexión a SAT, bancos, POS y Facturama (D-004).
 **Pregunta:** ¿Con qué tecnología se construye?
 **Opciones:** A) Supabase (Postgres + RLS + Edge Functions) + web React responsive  B) AppSheet + Google Sheets + Apps Script  C) Híbrido: Supabase como base de datos + AppSheet como interfaz
 **Recomendación:** A — aislamiento real entre empresas con RLS, volumen de movimientos y conciliación que Sheets no aguanta, secretos (e.firma, CSD, Facturama) protegidos en el backend.
 **Impacto en datos:** todo lo técnico.
-**Respuesta:**
+**Respuesta:** A) Supabase + web React (2026-10-27)
