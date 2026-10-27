@@ -7,11 +7,11 @@
 - **Paso:** Vuelta 0 · 0.3 — Condiciones
 - **Rebanada en curso:** —
 - **Módulo en curso:** —
-- **Última pregunta:** P-001 (C1 rentar vs propio) · ABIERTA
-- **Siguiente paso exacto:** registrar respuesta P-001 y seguir con C2–C6 una por mensaje
+- **Última pregunta:** P-002 (C2 usuarios y roles) · ABIERTA
+- **Siguiente paso exacto:** registrar respuesta P-002 y seguir con C3–C6 una por mensaje
 
 ## Decisiones recientes (últimas 10)
-- (ninguna)
+- D-001 · SaaS para rentar a muchas empresas
 
 ## Propuestas pendientes de aprobación 💡
 - Hipótesis de producto: leer de SAT/banco/POS en vez de capturar — elimina la objeción de doble captura

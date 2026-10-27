@@ -10,8 +10,8 @@ No pedir captura: leer el dato de donde ya existe (SAT/CFDI, banco, POS, exporta
 ## Condiciones
 | Código | Pregunta | Respuesta | Certeza |
 |---|---|---|---|
-| C1 | ¿Rentar a muchas empresas o uso propio? | — | ❓ PENDIENTE (P-001) |
-| C2 | Usuarios y roles | — | ❓ |
+| C1 | ¿Rentar a muchas empresas o uso propio? | SaaS para rentar (D-001) | ✅ CONFIRMADO |
+| C2 | Usuarios y roles | — | ❓ PENDIENTE (P-002) |
 | C3 | Sucursales / varias empresas por dueño | — | ❓ |
 | C4 | Dinero / CFDI | Sí maneja dinero; CFDI ❓ | 🟡 |
 | C5 | Desde dónde se usa | — | ❓ |
